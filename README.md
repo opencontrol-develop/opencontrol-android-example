@@ -1,21 +1,21 @@
 # Opencontrol Android SDK
 
-  Libreria de android diseñada para recolectar y enviar la información del dispositivo.
-  Current version: v0.0.1
+  Líbreria de android diseñada para recolectar y enviar la información del dispositivo.
+
 ## Beneficios
-- La información del dispositivo se envia directamente a nuestros servidores
+- La información del dispositivo se envía directamente a nuestros servidores
 - La forma de integrar es fácil y rápida
-- Todas las dependecias que ocupa la libreria opencontrol-v0.0.1.aar ya estan incluida
+- Todas las dependecias que ocupa la librería opencontrol-v0.0.1.aar ya estan incluida
 
 ## Instalación
 
 - Descargar la ultima versión del SDK (opencontrol-v0.0.1.aar)
-- Tener instalado el SDK de Android con versión 29 como minima
-- Agregar la libreria android de opencontrol (opencontrol-v0.0.1.aar) al proyecto
+- Tener instalado el SDK de Android con versión 29 como mínima
+- Agregar la libreria android de OpenControl (opencontrol-v0.0.1.aar) al proyecto
 
 ## Configuración
-Para inicializar la libreria se utilizan los siguientes parámetros:
-- **MERCHANT_ID**: Identificador p&uacute;blico del comercio<
+Para inicializar la librería se utilizan los siguientes parámetros:
+- **MERCHANT_ID**: Identificador p&uacute;blico del comercio
 - **USERNAME**: Nombre de usuario
 - **PUBLIC_API_KEY**: Llave pública del comercio
 - **PRODUCTION_MODE**: Bandera que indica si se usa la libreria en producción
@@ -25,7 +25,7 @@ Para inicializar la libreria se utilizan los siguientes parámetros:
 Opencontrol opencontrol = new Opencontrol("MERCHANT_ID","USERNAME","PUBLIC_API_KEY",PRODUCTION_MODE);
 ```
 ## Generación de Session Id
-Se debe usar el método **setup** del Objeto Opencontrol inicializado previamente. 
+Se debe usar el método **setup** del Objeto Opencontrol inicializado previamente.
 Este método utiliza un listener de tipo **DeviceCollectorListener** para obtener el session id.
 Utiliza los siguientes parámetros:
 - **CONTEXT**: El contexto de la aplicación</li>
